@@ -4,9 +4,9 @@ class Solution {
        int m=matrix.length;
        int n=matrix[0].length;
        int tp[][]=new int[n][m];
-       for(int i=0;i<m;i++){
-        for(int j=0;j<n;j++){
-            tp[j][i]=matrix[i][j];
+       for(int i=0;i<n;i++){
+        for(int j=0;j<m;j++){
+            tp[i][j]=matrix[j][i];
 
         }
        } 
